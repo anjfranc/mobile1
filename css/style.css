@@ -1,0 +1,543 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+h1{
+    font-size: 37px;
+    font-style:italic;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:'Times New Roman', "Georgia";
+}
+
+.title{
+    font-size: 30px;
+    /* font-weight: bold; */
+    margin-top:50px;
+    margin-left:70px;
+    font-family:'Times New Roman', "Georgia";}
+
+
+
+    .nav_links{
+      display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      
+  
+.foot p{
+  text-align: left;
+ margin-left: 30px;
+}
+
+figcaption, p{
+  margin-left: 20px;
+  margin-right: 20px;
+ margin-top:10px;
+ margin-bottom: 20px;
+  text-align: center;
+
+}
+
+
+.travel{
+    background-image: url("../images/green.jpg");
+    background-color: #ffffff;
+  
+}
+.fly{
+    background-image: url("../images/clouds.png");
+    background-color: #ffffff;
+    background-size: cover;
+}
+.clothes{
+    background-image: url("../images/fabric.webp");
+    background-color: #ffffff;
+}
+    /* min-height: 80vh;} */
+
+.container{
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 10px;
+      
+
+      }
+
+.space{
+  margin-top: 20px;
+}
+.container img{
+  width:75%;
+  box-sizing: content-box;
+}
+
+
+.title{
+        text-align: left;
+        /* margin-left: 150px; */
+      }
+
+/* 
+.breakfast img{
+  width:85%;
+  /* height: 300px; */
+ 
+/* } */
+
+/* .lunch img{
+  width:85%;
+  
+}
+
+.dinner img{
+  width:85%;
+  
+}
+.dessert img{
+  width:85%;
+  
+} */ 
+.skip{
+  visibility: hidden;
+}
+
+.grid-title,.grid-title2,.grid-title3,.grid-title4 p{ 
+  text-align: left;
+}
+@media screen and (min-width: 700px){
+.container{
+      grid-template-columns: 1fr 1fr 1fr;
+      row-gap: 20px;
+      }
+      .skip{
+        font-size: 20px;
+        visibility: visible;
+    
+    }
+  .nav_links{
+        flex-direction: row;
+           
+          }
+
+.grid-title{
+  grid-row:1/2;
+  grid-column: 1/span 3;
+  
+}
+.grid-title,.grid-title2,.grid-title3,.grid-title4 p{ 
+  text-align: left;
+}
+.breakfast{
+grid-row: 2/3;
+      }
+
+.grid-title2{
+  grid-row:3/4 ;
+  grid-column: 1/span 3;
+}
+.lunch{
+      grid-row: 4/5;
+    }
+.grid-title3{
+      grid-row:5/6 ;
+      grid-column: 1/span 3;}
+
+.dinner{
+  grid-row: 6/7;
+}
+
+.grid-title4{
+  grid-row: 7/8;
+  grid-column: 1/span 3;
+}
+
+.dessert{
+  grid-row: 8/9;
+}
+
+}
+.food{
+    background-image: url("../images/wood.jpg");
+    background-color: #ffffff;
+    min-height: 80vh;
+   
+  
+}
+footer{
+    background-color: #000;
+    padding: 5px 5px;
+    margin-top: 30px;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.reach{
+  margin-top: 100px;
+}
+nav li{
+        /* padding: 10px 0px; */
+        font-size: 28px;
+       
+        color: #000;
+        /* border:inset; 
+        border:outset; */
+        display:inline-block;
+        /* background-color: white; */
+        width:200px;
+        text-align: center;
+        font-family: 'Sacramento', 'Times New Roman'
+        
+        /* border:1px solid black;  */
+    }
+    
+
+
+  
+
+        
+        
+.active a{
+        /* background-color: white; */
+        color: #000;
+        font-size: 35px;
+        font-weight: bold;
+        text-transform: capitalize;
+        outline:none;}
+       
+.active a:hover, a:focus, a:visited{
+    color: #000;
+    font-weight: bold;
+    font-family: 'Sacramento', 'Times New Roman';
+}
+main{
+    font-size: 15px;
+}
+
+main p{
+  text-align:justify;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+width: 450px;
+
+border: 7px solid black;
+border-radius: 25px;
+padding: 10px;
+}
+
+
+.caves{
+    width: 450px;
+    height:350px;
+}
+
+img:hover{
+    filter:sepia(50%);
+    border:groove;
+ } 
+
+
+.home:hover{
+    filter:none;
+    border:none;
+ 
+}
+/* Dr.Coleen helped me with the nth-child and said I can do nth-child(even) */
+p{
+  text-align: center;
+  margin: auto;
+}
+.top img{
+width: 80%;
+margin-top: 25px;
+}
+
+.home{
+    border:none;
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+    /* height: 400px; */
+   transition: transform .2s; /* Animation */
+      }
+      
+      .home:active {
+        transform: scale(1.1); 
+      }
+
+
+*:focus{
+    background: rgb(203, 247, 220);
+}
+        
+.sari{  
+    width: 450px;
+    height:500px;
+}
+
+input {
+    display: block;
+}
+
+.visit{
+    display: inline;
+}
+
+.flex{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.flex figure{
+  width: 80vh;
+  margin-bottom: 20px;
+  
+}
+
+.flex img{
+  width: 80%;
+}
+
+figure img{
+width: 80%;
+}
+
+
+
+
+
+html {
+  font-family: 'Montserrat', Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #F2F3EB;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container {
+  border: solid 3px #474544;
+  /* max-width: 768px; */
+  margin: 60px auto;
+  position: relative;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  fill: #474544;
+  height: 50px;
+  margin: 0 auto;
+  width: 80px;
+}
+
+.email {
+	/* float: right; */
+	width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+	background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.message {
+	float: none;
+}
+
+.name {
+	/* float: left; */
+	width: 45%;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #474544;
+}
+
+:-moz-placeholder { 
+	color: #474544;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: #474544;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #474544;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+
+@media screen and (min-width:0px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 0px) {
+  h1 {
+    font-size: 26px;
+  }
+  
+  .underline {
+    width: 68px;
+  }
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (min-width: 0px) {
+  h1 {
+    font-size: 18px;
+  }
+  
+  .icon {
+    height: 90px;
+    width: 90px;
+  }
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}
