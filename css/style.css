@@ -26,10 +26,14 @@ h1{
         align-items: center;
     }
       
+.foot i{
+  --fa-animation-duration: 6s;
+  color: #000;
+}
   
 .foot p{
-  text-align: left;
- margin-left: 30px;
+  /* text-align: left; */
+ margin-left: 70px;
 }
 
 figcaption, p{
@@ -162,9 +166,6 @@ grid-row: 2/3;
 .food{
     background-image: url("../images/wood.jpg");
     background-color: #ffffff;
-    min-height: 80vh;
-   
-  
 }
 footer{
     background-color: #000;
@@ -188,7 +189,7 @@ nav li{
         /* background-color: white; */
         width:200px;
         text-align: center;
-        font-family: 'Sacramento', 'Times New Roman'
+        font-family: 'Sacramento', 'Times New Roman';
         
         /* border:1px solid black;  */
     }
@@ -271,14 +272,22 @@ margin-top: 25px;
     margin-right: auto;
     width: 330px;
     /* height: 400px; */
-   transition: transform .2s; /* Animation */
+   /* transition: transform 10s; Animation */
       }
       
       .home:active {
         transform: scale(1.3); 
       }
 
-
+      @media screen and (prefers-reduced-motion: reduce){
+        .home:active{
+          transform: none;
+        }
+    .foot i{
+      animation: none;
+    }
+      }
+      
 *:focus{
     background: rgb(203, 247, 220);
 }
