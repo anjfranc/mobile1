@@ -286,6 +286,9 @@ margin-top: 25px;
     .foot i{
       animation: none;
     }
+    .popup{
+      transition: none;
+    }
       }
       
 *:focus{
