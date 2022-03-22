@@ -575,6 +575,7 @@ textarea {
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease-out;
+  color:#000;
 }
 .button:hover {
   background: #8fd5eb;;
@@ -609,7 +610,7 @@ textarea {
 
 .popup h2 {
   margin-top: 0;
-  color: #333;
+  color: #000;
   font-family: Tahoma, Arial, sans-serif;
   text-align: center;
   font-size: 20px;
@@ -623,7 +624,7 @@ textarea {
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: #333;
+  color: #000;
 }
 .popup .close:hover {
   color: #000000;
